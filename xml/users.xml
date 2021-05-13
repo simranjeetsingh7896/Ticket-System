@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="users.xsd">
+  <user usertype="admin">
+    <!-- usertype is to check who login whether client , staff or admin-->
+    <userId>123456</userId>
+    <username>simranb7896</username>
+    <password>af4e5834b08749e4351722895ad14f5a</password>
+    <!--MD5 encyrption password-->
+    <name title="Mr">
+      <first>Simranjeet</first>
+      <last>Singh</last>
+    </name>
+    <contactnumber>+919780950535</contactnumber>
+    <email>simranb7896@gmail.com</email>
+  </user>
+  <user usertype="client">
+    <userId>456123</userId>
+    <username>jhon999</username>
+    <password>4c25b32a72699ed712dfa80df77fc582</password>
+    <name title="Mr">
+      <first>Jameson</first>
+      <last>Lee</last>
+    </name>
+    <contactnumber>+12360535123</contactnumber>
+    <email>lee123@gmail.com</email>
+  </user>
+  <user usertype="client">
+    <userId>007007</userId>
+    <username>ragnar123</username>
+    <password>bfbf0a2d3025f822df239c14d0288984</password>
+    <name title="Mr">
+      <first>Ragnar</first>
+      <last>Lothbrok</last>
+    </name>
+    <contactnumber>+1536012123</contactnumber>
+    <email>ragnar@gmail.com</email>
+  </user>
+</users>
